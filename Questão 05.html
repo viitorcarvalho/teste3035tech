@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Carros</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<style>
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: rgb(17, 17, 128);
+    z-index: 99;
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(7, 92, 107);
+    color: white;
+  }
+
+.carro {
+    border: 2px solid rgb(27, 27, 27);
+    border-radius: 2%;
+    background-color: #f8f8f8;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px #256b49;
+    color:#112506;
+    width: 300px;
+
+}
+
+.carro-header{
+    text-align: center;
+    color: #010101;
+}
+
+.carro-header h3 {
+    border-bottom: 2px solid #06d974;
+}
+
+.carro-body ul {
+    padding: 0;
+    margin: 0 10px;
+}
+
+.carro-body li{
+    list-style: none;
+    padding: 20px 20px 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2pxsolid#06d974;
+}
+
+.carro-footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.carro-footer a {
+    text-decoration: none;
+    border:none;
+    background-color: #06d974;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+</style>
+
+<body>
+    <nav>
+        <a href="index.html">Revenda de Carros</a>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Fincaciamento</a></li>
+            <li><a href="#">Seminovos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <hr size="50">
+
+    <div class="carro">
+        <div class="carro-body">
+            <ul>
+                <li>Onix</li>
+                <li><b>Kilometragem</b>18000 km</li>
+                <li><b>Valor:</b> R$ 49.000</li>
+            </ul>
+        </div>
+        
+        <div class="carro-footer">
+            <a href="#" class="btn">Compre</a>
+        </div>
+    </div>
+
+    <div class="carro">
+        <div class="carro-body">
+            <ul>
+                <li>HB20</li>
+                <li><b>Kilometragem</b>28000 km</li>
+                <li><b>Valor:</b> R$ 47.000</li>
+            </ul>
+        </div>
+        
+        <div class="carro-footer">
+            <a href="#" class="btn">Compre</a>
+        </div>
+    </div>
+
+    <hr size="10">
+
+    <footer>
+        <p>Revenda de Carros</p>
+        <p><a href="mailto:revenda@carros.com">revenda@carros.com</a></p>
+    </footer>
+  
+</body>
+
+</html>
